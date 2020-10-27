@@ -1,0 +1,23 @@
+.Pokecard {
+  height: 250px;
+  border-radius: 7px;
+  background-color: rgb(211, 211, 211, .7); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 7px 10px 12px -5px rgba(0,0,0, .7);
+}
+
+.Pokecard-header {
+  text-transform: uppercase;
+  color: #cc0000;
+}
+
+.Pokecard-text {
+  font-size: 90%;
+}
+
+.Pokecard-img {
+  width: 70%;
+}

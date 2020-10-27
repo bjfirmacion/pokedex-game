@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "pokemon hollow";
+  src: url(./fonts/pokemon-hollow.ttf) format("ttf");
+}
+
+.Pokedex {
+  max-width: 900px;
+  margin: 30px auto 70px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, min-content));
+  gap: 30px;
+}
+
+.Pokedex-header {
+  font-family: "pokemon hollow", sans-serif;
+  color: #fff;
+  grid-column: 1 / -1;
+  font-size: 32px;
+  /* text-transform: uppercase; */
+}
