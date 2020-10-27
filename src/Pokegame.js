@@ -51,7 +51,7 @@ class Pokegame extends React.Component {
 
     return (
       <div className="Pokegame">
-        <h1 className="Pokegame-header">Pokegame!</h1>
+        <h1 className="Pokegame-header">Pokedex Game!</h1>
         {players.map(player => (
           <Pokedex
             pokemon={player.hand}
